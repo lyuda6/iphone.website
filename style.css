@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gwendolyn:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width:100%;
+    height: 100px;
+    bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+header .header-text {
+    width:20%;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Dancing Script";
+    padding-top: 20px;
+    color: teal;
+}
+nav {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-;
+    align-items: center;
+    gap: 2rem;  
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 100% 0% 70% 30% / 100% 30% 70% 0% ;
+    background: teal;
+}
+main {
+    background: url(imgs/background-img.jpeg);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.main-text {
+    width: 80%;
+    height: 120px;
+}
+h2 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 92px;
+    color: teal;
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    -webkit-text-stroke:1px #fff;
+    font-family: "Dancing Script";
+}
+#box {
+    /* background-color: rgba(128, 128, 128, 0.168); */
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.box {
+    width: 22%;
+    height:400px;
+}
+.box img {
+   object-fit: cover;
+   width: 100%;
+   height: 400px;
+}
+/* .box img::activer {
+     content: " ";  
+    background: url(imgs/4.jpg);
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+} */
+.text h3 {
+    color: #444;
+    -webkit-box-reflect: below .1px linear-gradient(transparent, #000);
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ccc;
+    text-shadow: 0 0 1px cadetblue;
+    text-align: center;
+}
+#gif {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 70px;
+}
+.gif {
+    width: 20rem;
+}
+.gif img {
+    object-fit: cover;
+    width: 19rem;
+}
+.content {
+    background: url(imgs/10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* filter: blur(3px);*/
+}
+.text2 {
+    text-align: center;
+    padding-bottom: 60px;
+    /* position:absolute;
+    z-index:1; */
+}
+#content-img {
+    display: flex;
+    width: 900px;
+    height:500px;
+    /* border: 7px solid red; */
+    box-shadow: -1px 1px 14px 13px #111;
+}
+.content-img {
+    width: 900px;
+    height: 500px;
+}
+.content-img  img{
+    width: 100%;
+    height: 500px;
+    /* background-attachment: fixed; */
+}
+.text2 h3 {
+    padding-top: 30px;
+    color: #444;
+    -webkit-box-reflect: below .1px linear-gradient(transparent, #000);
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ccc;
+    text-shadow: 0 0 1px cadetblue;
+    text-align: center;
+}
+.text3 h3 {
+    padding-top: 30px;
+    color: #444;
+    -webkit-box-reflect: below .1px linear-gradient(transparent, #000);
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ccc;
+    text-shadow: 0 0 1px cadetblue;
+    text-align: center;
+}
+.grid-imgs {
+    margin-top: 50px;
+    justify-content: center;
+    width: 100%;
+    /* height: 800px; */
+    display: grid;
+    grid-template-columns: repeat(3,255px);
+    grid-template-rows: repeat(2,255px);
+    gap: 20px;
+}
+.imgs img {
+    width: 100%;
+    height: 250px;
+}
+footer {
+    width: 100%;
+    height: 500px;
+    /* filter: blur(1px);  */
+    background: url(imgs/9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer form {
+    width: 500px;
+    height: 400px;
+    background: rgb(58,180,137);
+    background: linear-gradient(29deg, rgba(58,180,137,1) 9%, rgba(255,255,255,1) 51%, rgba(58,180,137,1) 92%);
+    display: flex;  
+    padding:30px;
+    flex-direction: column;
+    gap: 20px;
+}
+form p {
+    text-align: center;
+    margin: 20px;
+    font-family: "Dancing Script";
+    color: teal;
+    font-weight: bold;
+    font-size: 30px;
+}
+footer form input {
+    background: rgb(58,180,137);
+    background: linear-gradient(29deg, rgba(58,180,137,1) 9%, rgba(255,255,255,1) 51%, rgba(58,180,137,1) 92%);
+    border: 1px solid;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.email {
+    padding: 8px;
+}
+footer form textarea{
+    padding-top: 20px;
+    border: 1px solid;
+    height: 150px;
+    background: rgb(58,180,137);
+    background: linear-gradient(29deg, rgba(58,180,137,1) 9%, rgba(255,255,255,1) 51%, rgba(58,180,137,1) 92%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+footer form .submit {
+    width: 70px;
+    height: 30px;
+}
+.footer p{
+    height: 70px;
+    background-color: teal;
+    font-family: "Dancing Script";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+}
